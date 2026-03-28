@@ -6,3 +6,7 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+// Method forEach to print only names in object
+
+people.forEach(person => console.log(person.name))
