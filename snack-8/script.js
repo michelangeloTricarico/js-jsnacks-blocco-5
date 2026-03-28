@@ -21,3 +21,13 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+// Method forEach to find class for Marco Lanci student
+
+let class_student // variable initialization to save class
+students.forEach((element) => {
+  if (element.name == "Marco Lanci"){
+    class_student = element.class
+  }
+})
+console.log(class_student) //print results
