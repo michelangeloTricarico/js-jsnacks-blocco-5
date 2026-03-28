@@ -7,3 +7,8 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+// Method map to create a new array only with author names
+
+const author_names = posts.map( element => element.author)
+console.log(author_names) // print results
